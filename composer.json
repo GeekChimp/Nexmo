@@ -1,13 +1,10 @@
 {
-    "name": "prawnsalad/nexmo",
-    "description": "prawnsalad's Nexmo-PHP-lib",
+    "name": "geekchimp/nexmo",
+    "description": "Nexmo's PHP Library",
     "keywords": ["Nexmo"],
-    "homepage": "https://github.com/prawnsalad/Nexmo-PHP-lib",
+    "homepage": "https://github.com/geekchimp/nexmo",
     "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "PrawnSalad\\Nexmo\\": ["src"]
-        }
+      "classmap": ["src/"]
     }
 }
-
